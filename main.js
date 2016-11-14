@@ -1,13 +1,13 @@
 
 // original console notification
-console.log("JS file is connected to HTML! Woo!")
-//these are the cards
+console.log("got this working!")
+//My cards
 var cardOne = "queen";
 var cardTwo  = "queen";
 var cardThree = "king";
 var cardFour = "king";
 //matching queens
-if (cardOne === cardTwo){
+/*if (cardOne === cardTwo){
 alert("You found a match");
 }else {
 	alert ("Sorry, try again");
@@ -29,5 +29,15 @@ if (cardFour ===cardOne){
 alert("You found a match");
 }else {
 	alert ("Sorry, try again");
+}*/
+var board = document.getElementById('game-board');
+var createCards = function(){
+	for (var i = 0; i<4; i++){
+		var cardElement =document.createElement('div');
+		cardElement.className ='card';
+		board.appendChild(cardElement);
+		console.log('the board: ', board);
+   console.log('the cardElement: ', cardElement);
+	}
 }
-
+createCards();
