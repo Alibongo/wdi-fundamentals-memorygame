@@ -2,10 +2,10 @@
 		text-align: center;
 	}
 nav {
-background-color: #808080;
+background-color: #8E99AF;
 }
 
-a{ background-color: #ffbf00;
+a{ background-color: #5776C4;
 	color:white;
 	text-decoration: none;
 	display: block;
@@ -14,7 +14,7 @@ a{ background-color: #ffbf00;
 
 }
 a:hover{
-	background-color:  #ee5f3c;
+	background-color: #2424B2;
 }
  .clearfix:after {
         visibility: hidden;
@@ -26,11 +26,24 @@ a:hover{
       }	
 
 		h1 {
-    color: rgb(2,132,130);
+ color: #5776C4;
+    font-family: arial;
 }
 
 	h2 {
-    color: #ffd700;
+    color: #8E99AF;
+    font-family: arial;
+}
+
+	h3 {
+    color: #000000;
+    font-family: arial;
+}
+
+p{
+    color: #000000;
+    font-family: arial;
+    position: center;
 }
 
 .board{
@@ -43,14 +56,22 @@ height: 50%;
 	height: 200px;
 	width: 150px;
 	margin: 8%;
-background-color: #ffff00;
-	border: 1px solid #000000;
+background-color: #5776C4;
+	border: 0 solid #000000;
 	border-radius: 10px; 
 }
 .name{
-	color: red;
+	color: white;
 }
 
 footer{
 	background-color: #808080;
+}
+
+img{ height: 200px;
+	width: 150px;
+	border-radius: 10px; 
+
+}
+
 }
